@@ -40,3 +40,9 @@ test -f "$HOME/.local/bin/env.fish"; and source "$HOME/.local/bin/env.fish"
 # opencode
 fish_add_path /home/pi/.opencode/bin
 set -gx EDITOR nvim
+
+# rust
+source "$HOME/.cargo/env.fish"
+
+# fxf find fish integeration
+fzf --fish | source
