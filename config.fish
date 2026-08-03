@@ -7,6 +7,10 @@ if status is-interactive
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias df duf
+    alias less batcat
+    abbr -a du "sudo /home/pi/.cargo/bin/dust"
+    abbr -a df "sudo duf"
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
@@ -26,16 +30,6 @@ end
 
 # .local/bin/env equivalent
 test -f "$HOME/.local/bin/env.fish"; and source "$HOME/.local/bin/env.fish"
-
-#if status is-interactive
-#    if set -q SSH_CONNECTION; and not set -q TMUX
-#        if tmux has-session 2>/dev/null
-#            exec tmux attach-session
-#        else
-#            exec tmux new-session
-#        end
-#    end
-#end
 
 # opencode
 fish_add_path /home/pi/.opencode/bin
