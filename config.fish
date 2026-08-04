@@ -8,7 +8,7 @@ if status is-interactive
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     alias df duf
-    alias less batcat
+    alias less 'batcat --paging=always'
     alias ls 'eza --color=auto --group-directories-first'
     alias ll 'eza -l --git --icons'
     alias lt 'eza --tree --icons'
