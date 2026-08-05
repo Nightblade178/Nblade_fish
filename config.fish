@@ -9,9 +9,9 @@ if status is-interactive
     alias egrep='egrep --color=auto'
     alias df duf
     alias less 'batcat --paging=always'
-    alias ls 'eza --color=auto --group-directories-first'
-    alias ll 'eza -l --git --icons'
-    alias lt 'eza --tree --icons'
+    alias ls 'eza -g --color=auto --group-directories-first'
+    alias ll 'eza -lg --git --icons'
+    alias lt 'eza -g --tree --icons'
     abbr -a du "sudo /home/pi/.cargo/bin/dust"
     abbr -a df "sudo duf"
 
