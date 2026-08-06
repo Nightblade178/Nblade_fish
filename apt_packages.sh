@@ -1,2 +1,12 @@
-sudo apt install fzf tealdeer eza duf fd-find
+#!/bin/bash
+
+sudo apt update
+sudo apt install -y \
+    build-essential \
+    fzf \
+    tealdeer \
+    eza \
+    duf \
+    fd-find
+
 cargo install du-dust
