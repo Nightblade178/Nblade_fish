@@ -12,6 +12,7 @@ if status is-interactive
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons'
     alias lt 'eza -g --tree --icons'
+    alias vi nvim
     abbr -a du "sudo /home/pi/.cargo/bin/dust"
     abbr -a df "sudo duf"
 

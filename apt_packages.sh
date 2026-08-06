@@ -7,6 +7,7 @@ sudo apt install -y \
     tealdeer \
     eza \
     duf \
-    fd-find
+    fd-find \
+    bat
 
 cargo install du-dust
