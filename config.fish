@@ -15,6 +15,7 @@ if status is-interactive
     alias vi nvim
     abbr -a du "sudo /home/pi/.cargo/bin/dust"
     abbr -a df "sudo duf"
+    abbr -a shutdown "sudo shutdown"
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
@@ -36,8 +37,9 @@ end
 test -f "$HOME/.local/bin/env.fish"; and source "$HOME/.local/bin/env.fish"
 
 # opencode
-fish_add_path /home/pi/.opencode/bin
+fish_add_path ~/.opencode/bin
 set -gx EDITOR nvim
+set -Ux SUDO_EDITOR nvim
 
 # rust
 source "$HOME/.cargo/env.fish"
