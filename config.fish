@@ -16,6 +16,7 @@ if status is-interactive
     abbr -a du "sudo /home/pi/.cargo/bin/dust"
     abbr -a df "sudo duf"
     abbr -a shutdown "sudo shutdown"
+    abbr -a fdisk "sudo fdisk"
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
