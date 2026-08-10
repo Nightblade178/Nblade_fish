@@ -13,10 +13,11 @@ if status is-interactive
     alias ll 'eza -lg --git --icons'
     alias lt 'eza -g --tree --icons'
     alias vi nvim
-    abbr -a du "sudo /home/pi/.cargo/bin/dust"
+    abbr -a du "sudo $HOME/.cargo/bin/dust"
     abbr -a df "sudo duf"
     abbr -a shutdown "sudo shutdown"
     abbr -a fdisk "sudo fdisk"
+    abbr -a openrgb "sudo openrgb"
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
