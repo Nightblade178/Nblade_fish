@@ -16,6 +16,7 @@ if status is-interactive
     abbr -a du "sudo $HOME/.cargo/bin/dust"
     abbr -a df "sudo duf"
     abbr -a shutdown "sudo shutdown"
+    abbr -a reboot "sudo reboot"
     abbr -a fdisk "sudo fdisk"
     abbr -a openrgb "sudo openrgb"
 
