@@ -25,9 +25,3 @@ git clone https://github.com/Nightblade178/Nblade_Starship.git ../Nblade_Starshi
 cd ../Nblade_Starship
 bash install.sh
 cd -
-
-# LazyVim
-git clone https://github.com/Nightblade178/Nblade_LazyVim.git ../Nblade_LazyVim
-cd ../Nblade_LazyVim/
-bash install.sh
-cd -
