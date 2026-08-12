@@ -25,3 +25,6 @@ git clone https://github.com/Nightblade178/Nblade_Starship.git ../Nblade_Starshi
 cd ../Nblade_Starship
 bash install.sh
 cd -
+
+# Zioxide
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh

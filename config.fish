@@ -47,5 +47,9 @@ set -Ux SUDO_EDITOR nvim
 # rust
 source "$HOME/.cargo/env.fish"
 
+# Zioxide
+fish_add_path ~/.local/bin
+zoxide init fish | source
+
 # fxf find fish integeration
 fzf --fish | source
