@@ -53,3 +53,6 @@ zoxide init fish | source
 
 # fxf find fish integeration
 fzf --fish | source
+
+# Fish catppuccin-frappe theme
+fish_config theme choose catppuccin-frappe
