@@ -13,7 +13,7 @@ if status is-interactive
     alias ll 'eza -lg --git --icons'
     alias lt 'eza -g --tree --icons'
     alias vi nvim
-    abbr -a du "sudo $HOME/.cargo/bin/dust"
+    abbr -a du "sudo dust"
     abbr -a df "sudo duf"
     abbr -a shutdown "sudo shutdown"
     abbr -a reboot "sudo reboot"
@@ -45,7 +45,7 @@ set -gx EDITOR nvim
 set -Ux SUDO_EDITOR nvim
 
 # rust
-source "$HOME/.cargo/env.fish"
+#source "$HOME/.cargo/env.fish"
 
 # Zioxide
 fish_add_path ~/.local/bin
