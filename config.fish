@@ -55,4 +55,4 @@ zoxide init fish | source
 fzf --fish | source
 
 # Fish catppuccin-frappe theme
-fish_config theme choose catppuccin-frappe
+fish_config theme choose custom
