@@ -17,6 +17,9 @@ sudo apt install -y \
 rm ~/.config/fish/config.fish
 ln -s $(realpath config.fish) ~/.config/fish/.
 
+mkdir -p ~/.config/fish/themes
+ln -s $(realpath custom.theme) ~/.config/fish/themes/.
+
 # Rust and dust
 # In case apt is older or doesnt work
 #curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
