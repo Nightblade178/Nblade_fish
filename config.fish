@@ -19,6 +19,7 @@ if status is-interactive
     abbr -a reboot "sudo reboot"
     abbr -a fdisk "sudo fdisk"
     abbr -a openrgb "sudo openrgb"
+    abbr -a intel-gpu-tools "sudo intel-gpu-tools"
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
