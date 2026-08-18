@@ -12,7 +12,9 @@ sudo apt install -y \
   duf \
   fd-find \
   bat \
-  du-dust
+  du-dust \
+  btop \
+  glow
 
 rm ~/.config/fish/config.fish
 ln -s $(realpath config.fish) ~/.config/fish/.
