@@ -38,8 +38,8 @@ if status is-interactive
     #### DEFAULT ZSH/BASH SHORTCUT ####
     # ctrl f to go forward one character
     # ctrl b to go backward one character
-    # alt F to go foward one word
-    # alt B to go backward one word
+    # alt f to go foward one word
+    # alt b to go backward one word
 
     starship init fish | source
 
