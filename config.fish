@@ -31,6 +31,10 @@ if status is-interactive
     bind ctrl-c cancel-commandline
     bind ctrl-alt-backspace backward-kill-word
 
+    # Fish cycle commands
+    bind alt-k up-or-search
+    bind alt-j down-or-search
+
     starship init fish | source
 
     if type -q dircolors
