@@ -43,3 +43,6 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 
 # Catpuccin fish theme
 fisher install catppuccin/fish
+
+# Atuin
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
