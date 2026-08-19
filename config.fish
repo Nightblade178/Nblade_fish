@@ -3,16 +3,21 @@ if status is-interactive
     alias temp="watch -c -b -d -n 1 -- 'vcgencmd measure_temp'"
 
     # ls/grep colors
-    alias ls='ls --color=auto'
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
-    alias df duf
+    alias diff='diff --color=auto'
     alias less 'batcat --paging=always'
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons'
     alias lt 'eza -g --tree --icons'
     alias vi nvim
+    alias clip='xclip -selection c'
+
+    # fun stuff
+    alias matrix="cmatrix -b"
+    alias stegosaurus="cowsay  -f /usr/share/cowsay/cows/stegosaurus.cow"
+
     abbr -a du "sudo dust"
     abbr -a df "sudo duf"
     abbr -a shutdown "sudo shutdown"
