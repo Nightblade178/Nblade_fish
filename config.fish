@@ -41,8 +41,6 @@ if status is-interactive
     # alt f to go foward one word
     # alt b to go backward one word
 
-    starship init fish | source
-
     if type -q dircolors
         if test -r ~/.dircolors
             set -gx LS_COLORS (dircolors -b ~/.dircolors | string match -r "'(.*)'" -g)
@@ -72,3 +70,8 @@ fzf --fish | source
 
 # Fish catppuccin-frappe theme
 fish_config theme choose custom
+
+if status is-interactive
+    atuin init fish --disable-up-arrow | source
+    starship init fish | source
+end
