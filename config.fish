@@ -35,6 +35,10 @@ if status is-interactive
     bind alt-k up-or-search
     bind alt-j down-or-search
 
+    #### DEFAULT ZSH/BASH SHORTCUT ####
+    # alt F to go foward word
+    # alt B to go backward word
+
     starship init fish | source
 
     if type -q dircolors
