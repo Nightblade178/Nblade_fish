@@ -8,6 +8,7 @@ if status is-interactive
     alias egrep='egrep --color=auto'
     alias diff='diff --color=auto'
     alias less 'batcat --paging=always'
+    alias fd fdfind
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons --group-directories-first'
     alias lt 'eza -g --tree --icons'
