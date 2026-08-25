@@ -11,6 +11,7 @@ if status is-interactive
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons --group-directories-first'
     alias lt 'eza -g --tree --icons'
+    alias l 'eza -1 --icons'
     alias vi nvim
     alias clip='xclip -selection c'
 
