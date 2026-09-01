@@ -15,6 +15,7 @@ if status is-interactive
     alias l 'eza -1 --icons'
     alias vi nvim
     alias clip='xclip -selection c'
+    alias oldssh='ssh -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa'
 
     # fun stuff
     alias matrix="cmatrix -b"
@@ -27,6 +28,7 @@ if status is-interactive
     abbr -a fdisk "sudo fdisk"
     abbr -a openrgb "sudo openrgb"
     abbr -a intel_gpu_top "sudo intel_gpu_top"
+    abbr -a wg 'sudo wg'
 
     bind ctrl-alt-h backward-kill-word
     bind alt-delete backward-kill-word
