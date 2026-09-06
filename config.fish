@@ -12,7 +12,7 @@ if status is-interactive
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons --group-directories-first'
     alias lt 'eza -g --tree --icons'
-    alias l 'eza -1 --icons'
+    alias l 'eza -1 --icons always'
     alias vi nvim
     alias clip='xclip -selection c'
     alias oldssh='ssh -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa'
