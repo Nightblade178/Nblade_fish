@@ -16,8 +16,8 @@ sudo apt install -y \
   btop \
   glow
 
-rm ~/.config/fish/config.fish
-ln -s $(realpath config.fish) ~/.config/fish/.
+rm ~/.config/fish/ -rf
+ln -s $(realpath fish) ~/.config/fish
 
 mkdir -p ~/.config/fish/themes
 ln -s $(realpath custom.theme) ~/.config/fish/themes/.
