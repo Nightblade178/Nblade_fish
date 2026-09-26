@@ -1,0 +1,4 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export SUDO_EDITOR:nvim
+SETUVAR fish_user_paths:/home/pi/\x2elocal/bin\x1e/home/pi/\x2eopencode/bin
