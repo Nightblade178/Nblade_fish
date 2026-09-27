@@ -1,8 +1,8 @@
 *
-fish/fish_variables
 !*/
 !config.fish
 !README.md
 !apt_packages.sh
 !fish/**
+fish/fish_variables
 !.gitignore
