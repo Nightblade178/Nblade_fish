@@ -35,6 +35,9 @@ ln -s $(realpath custom.theme) ~/.config/fish/themes/.
 #cd -
 #rm -rf /tmp/Nblade_Starship
 
+# UV
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
 # Zioxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
