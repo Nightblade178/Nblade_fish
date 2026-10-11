@@ -51,6 +51,9 @@ curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh 
 # Fisher
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 
+# Witr
+curl -fsSL https://raw.githubusercontent.com/pranshuparmar/witr/main/install.sh | bash
+
 # Catpuccin fish theme
 fisher install catppuccin/fish
 
