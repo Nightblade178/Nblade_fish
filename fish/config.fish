@@ -22,6 +22,7 @@ if status is-interactive
     alias stegosaurus="cowsay  -f /usr/share/cowsay/cows/stegosaurus.cow"
 
     abbr -a du "sudo dust"
+    abbr -a btop "sudo btop"
     abbr -a df "sudo duf --style ascii"
     abbr -a shutdown "sudo shutdown"
     abbr -a reboot "sudo reboot"
