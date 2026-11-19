@@ -1,3 +1,4 @@
+source /usr/share/cachyos-fish-config/cachyos-config.fish
 if status is-interactive
     # temperature alias
     alias temp="watch -c -b -d -n 1 -- 'vcgencmd measure_temp'"
