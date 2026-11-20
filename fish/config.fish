@@ -8,14 +8,17 @@ if status is-interactive
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     alias diff='diff --color=auto'
-    alias less 'batcat --paging=always --color always'
-    alias fd fdfind
+    alias less 'bat --paging=always --color always'
     alias ls 'eza -g --color=auto --group-directories-first'
     alias ll 'eza -lg --git --icons --group-directories-first'
     alias lt 'eza -g --tree --icons always'
     alias l 'eza -1 --icons always'
     alias vi nvim
-    alias clip='xclip -selection c'
+    # x11
+    #alias clip='xclip -selection c'
+    #
+    # Wayland
+    alias clip='wl-copy'
     alias oldssh='ssh -o KexAlgorithms=+diffie-hellman-group14-sha1 -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa'
 
     # fun stuff

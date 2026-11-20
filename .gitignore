@@ -6,3 +6,4 @@
 !fish/**
 fish/fish_variables
 !.gitignore
+fish/conf.d/fish_frozen_key_bindings.fish.bak
